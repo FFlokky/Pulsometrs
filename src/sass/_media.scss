@@ -46,7 +46,7 @@
     }
     .advantage{
         padding: 40px 0 40px 0;
-        &__header{
+        .title{
             font-size: 25px;
         }
         &__items{
@@ -59,6 +59,17 @@
                 margin-top: 10px;
                 font-size: 13px;
             }
+        }
+    }
+    .consultation{
+        .title_left{
+            font-size: 30px;
+        }
+        &__descr{
+            font-size: 18px;
+        }
+        .feed-form{
+            width: 290px;
         }
     }
 }
@@ -104,6 +115,24 @@
         &__item{
             width: 100%;
             padding: 0 50px;
+        }
+    }
+    .consultation{
+        padding: 50px 0 50px 0;
+        min-height: 550px;
+        .title_left{
+            text-align: center;
+            font-size: 24px;
+        }
+        &__descr{
+            font-size: 17px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .feed-form{
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 20px;
         }
     }
 }
@@ -152,11 +181,35 @@
     }
     .advantage{
         padding: 20px 0;
-        &__header{
+        .title{
             font-size: 20px;
         }
         &__item{
             padding: 0 5px;
         }
+    }
+    .consultation{
+        min-height: 450px;
+        .container{
+            width: 100%;
+        }
+        .title_left{
+            font-size: 15px;
+        }
+        &__descr{
+            font-size: 13px;
+        }
+        .feed-form{
+            width: 250px;
+            font-size: 14px;
+            input{
+                height: 35px;
+            }
+        }
+        .button_submit{
+            height: 35px;
+            font-size: 13px;
+        }
+
     }
 }
