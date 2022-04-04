@@ -1,3 +1,19 @@
+@media (max-width:1200px){
+    .carousel{
+        &__inner{
+            width: 100%;
+        }
+        .prev, .next {
+            left: -5px;
+            
+        }
+        .next {
+            left: auto;
+            right: -5px;
+        }
+    }
+}
+
 @media (max-width: 991px){
     .header{
         &__logo{
@@ -72,6 +88,35 @@
             width: 290px;
         }
     }
+    .carousel{
+        &__inner{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+        .next, .prev {
+            display: none;
+        }
+        .tns-nav{
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            button{
+                width: 20px;
+                height: 20px;
+                background-color: black;
+                border-radius: 50%;
+                margin: 0 5px;
+                border: none;
+            }
+            .tns-nav-active{
+                background-color: $main_color;
+                transition: 0.5s all;
+            }
+        }
+    }
 }
 @media (max-width: 767px) {
     .promo{
@@ -133,6 +178,15 @@
             text-align: center;
             margin: 0 auto;
             margin-top: 20px;
+        }
+    }
+    .carousel{
+        height: 650px;
+        &__inner{
+            width: 100%;
+            img{
+                width: 100%;
+            }
         }
     }
 }
@@ -211,5 +265,18 @@
             font-size: 13px;
         }
 
+    }
+    .carousel{
+        min-height: 350px;
+        padding: 20px 0;
+        .container{
+            width: 100%;
+        }
+        &__inner{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
     }
 }
