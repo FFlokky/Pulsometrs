@@ -2,7 +2,6 @@
     font-family: 'Museo Sans Cyrl';
     src: url('MuseoSansCyrl-300.eot');
     src: url('MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
-    url('MuseoSansCyrl-300.woff') format('woff'),
     url('../fonts/MuseoSansCyrl-300.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
@@ -11,7 +10,6 @@
     font-family: 'Museo Sans Cyrl';
     src: url('MuseoSansCyrl-500.eot');
     src: url('MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
-    url('MuseoSansCyrl-500.woff') format('woff'),
     url('../fonts/MuseoSansCyrl-500.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
@@ -20,7 +18,6 @@
     font-family: 'Museo Sans Cyrl';
     src: url('MuseoSansCyrl-700.eot');
     src: url('MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
-    url('MuseoSansCyrl-700.woff') format('woff'),
     url('../fonts/MuseoSansCyrl-700.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
